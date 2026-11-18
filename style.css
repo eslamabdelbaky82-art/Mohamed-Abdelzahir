@@ -1,0 +1,249 @@
+/* White & Cool Gray Color Palette */
+:root {
+    --bg-pure-white: #ffffff;
+    --bg-soft-gray: #f4f5f7;
+    --bg-card-gray: #f9fafb;
+    --border-light-gray: #e2e5e9;
+    --text-dark-slate: #1f242d;
+    --text-medium-gray: #4b5563;
+    --text-muted-gray: #6b7280;
+    --accent-slate: #374151;
+    --accent-slate-hover: #1f2937;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--bg-pure-white);
+    color: var(--text-dark-slate);
+    scroll-behavior: smooth;
+}
+
+/* Utilities */
+.bg-soft-gray {
+    background-color: var(--bg-soft-gray);
+}
+
+.text-dark-slate {
+    color: var(--text-dark-slate);
+}
+
+.text-medium-gray {
+    color: var(--text-medium-gray);
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border-light-gray);
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    color: var(--text-dark-slate);
+    letter-spacing: -0.5px;
+}
+
+.nav-link {
+    color: var(--text-medium-gray);
+    font-weight: 500;
+    font-size: 0.92rem;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--text-dark-slate);
+}
+
+/* Buttons */
+.btn-dark-gray {
+    background-color: var(--accent-slate);
+    color: #ffffff;
+    border: 1px solid var(--accent-slate);
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-dark-gray:hover {
+    background-color: var(--accent-slate-hover);
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+.btn-outline-gray {
+    background-color: var(--bg-pure-white);
+    color: var(--text-dark-slate);
+    border: 1px solid var(--border-light-gray);
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-outline-gray:hover {
+    background-color: var(--bg-soft-gray);
+    border-color: #cbd5e1;
+    color: var(--text-dark-slate);
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(180deg, var(--bg-soft-gray) 0%, var(--bg-pure-white) 100%);
+    border-bottom: 1px solid var(--border-light-gray);
+}
+
+.badge-pill {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--bg-pure-white);
+    border: 1px solid var(--border-light-gray);
+    color: var(--text-medium-gray);
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 0.82rem;
+    font-weight: 500;
+}
+
+.summary-card {
+    background-color: var(--bg-pure-white);
+    border: 1px solid var(--border-light-gray);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+
+/* Section Titles */
+.section-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--text-dark-slate);
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 45px;
+    height: 3px;
+    background-color: var(--accent-slate);
+    border-radius: 2px;
+}
+
+/* Skills Section */
+.filter-btn {
+    background-color: var(--bg-soft-gray);
+    border: 1px solid var(--border-light-gray);
+    color: var(--text-medium-gray);
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background-color: var(--accent-slate);
+    color: #ffffff;
+    border-color: var(--accent-slate);
+}
+
+.skill-box {
+    background-color: var(--bg-card-gray);
+    border: 1px solid var(--border-light-gray);
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-box:hover {
+    transform: translateY(-3px);
+    background-color: var(--bg-pure-white);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.icon-box {
+    width: 40px;
+    height: 40px;
+    background-color: var(--bg-soft-gray);
+    border: 1px solid var(--border-light-gray);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-slate);
+}
+
+.skill-tag {
+    background-color: var(--bg-pure-white);
+    border: 1px solid var(--border-light-gray);
+    color: var(--text-medium-gray);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+/* Experience Cards */
+.timeline-card {
+    border: 1px solid var(--border-light-gray);
+    border-left: 4px solid var(--accent-slate);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+}
+
+.date-badge {
+    background-color: var(--bg-soft-gray);
+    border: 1px solid var(--border-light-gray);
+    color: var(--text-dark-slate);
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+.experience-list {
+    padding-left: 1.2rem;
+}
+
+.experience-list li {
+    margin-bottom: 0.55rem;
+    line-height: 1.6;
+}
+
+/* Projects & Certifications */
+.project-card, .cert-item, .edu-card {
+    background-color: var(--bg-card-gray);
+    border: 1px solid var(--border-light-gray);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.project-card:hover, .cert-item:hover, .edu-card:hover {
+    background-color: var(--bg-pure-white);
+    border-color: #cbd5e1;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.03);
+}
+
+/* Form Inputs */
+.form-control {
+    border: 1px solid var(--border-light-gray);
+    color: var(--text-dark-slate);
+}
+
+.form-control:focus {
+    border-color: var(--accent-slate);
+    box-shadow: 0 0 0 0.2rem rgba(55, 65, 81, 0.15);
+}
+
+/* Print Optimization */
+@media print {
+    .navbar, #contact, .skill-filters, button {
+        display: none !important;
+    }
+    body {
+        background: #fff !important;
+    }
+    section {
+        padding: 1.5rem 0 !important;
+    }
+}

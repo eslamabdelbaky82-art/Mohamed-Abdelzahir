@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Abdelzaher | Senior Application Support Engineer</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">MA<span class="text-muted">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center gap-2">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item ms-lg-2">
+                        <a href="#contact" class="btn btn-dark-gray btn-sm px-3">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section py-5">
+        <div class="container py-lg-5">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="badge-pill mb-3">
+                        <i class="fas fa-circle text-success me-2" style="font-size: 8px;"></i>Available for Enterprise Support & Automation Roles
+                    </div>
+                    <h1 class="display-4 fw-bold text-dark-slate mb-2">MOHAMED ABDELZAHER</h1>
+                    <h2 class="h4 text-medium-gray fw-medium mb-4">Senior Application Support Engineer</h2>
+                    <p class="lead text-muted mb-4" style="max-width: 680px;">
+                        Specializing in L2/L3 production support for mission-critical banking applications (KYC/AML/CFT), SQL/PLSQL troubleshooting, IIS administration, and building AI-powered operational workflow automations.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3 mb-4">
+                        <button onclick="window.print()" class="btn btn-dark-gray px-4 py-2">
+                            <i class="fas fa-print me-2"></i>Print / Save Resume
+                        </button>
+                        <button id="copyEmailBtn" class="btn btn-outline-gray px-4 py-2" data-email="mohamedhosny2819@gmail.com">
+                            <i class="far fa-copy me-2"></i><span>Copy Email</span>
+                        </button>
+                        <a href="https://linkedin.com/in/mohamed-hosny28" target="_blank" class="btn btn-outline-gray px-3 py-2" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <div class="d-flex flex-wrap gap-4 text-muted small">
+                        <span><i class="fas fa-map-marker-alt me-2"></i>Giza, Egypt</span>
+                        <span><i class="fas fa-phone-alt me-2"></i>+20 112 162 3973</span>
+                        <span><i class="fas fa-envelope me-2"></i>mohamedhosny2819@gmail.com</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-5 mt-lg-0">
+                    <div class="summary-card p-4">
+                        <h6 class="text-uppercase text-muted fw-bold small mb-3 tracking-wider">Quick Profile Snapshot</h6>
+                        <div class="stat-item mb-3 pb-3 border-bottom">
+                            <div class="fw-bold text-dark-slate">Domain Focus</div>
+                            <div class="text-muted small">Banking Compliance (KYC, AML, CFT, Watchlist Screening)</div>
+                        </div>
+                        <div class="stat-item mb-3 pb-3 border-bottom">
+                            <div class="fw-bold text-dark-slate">Core Stack</div>
+                            <div class="text-muted small">Oracle PL/SQL, SQL Server, IIS, Python, Linux/Windows</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="fw-bold text-dark-slate">Languages</div>
+                            <div class="text-muted small">Arabic (Native) &bull; English (Intermediate)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About / Professional Summary -->
+    <section id="about" class="py-5 bg-soft-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="section-title mb-4">Professional Summary</h3>
+                    <div class="card border-0 shadow-xs p-4 bg-white">
+                        <p class="text-secondary mb-0 lh-lg">
+                            Senior Application Support Engineer with hands-on experience providing L2/L3 support for mission-critical banking applications across multiple clients. Experienced in production support, KYC/AML/CFT, watchlist screening, SQL/PLSQL, ETL support, IIS administration, deployments, UAT validation, monitoring, log analysis, SSL certificates, and license management. Skilled in troubleshooting complex incidents, root cause analysis, client coordination, technical documentation, and knowledge transfer. Also experienced in web development training and building AI-powered workflow automations for operational processes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Skills Section with Interactive Filter -->
+    <section id="skills" class="py-5 bg-white">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4">
+                <h3 class="section-title mb-3 mb-md-0">Core Technical Skills</h3>
+                <div class="skill-filters d-flex flex-wrap gap-2">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="support">Support & Ops</button>
+                    <button class="filter-btn" data-filter="db">Databases & Banking</button>
+                    <button class="filter-btn" data-filter="dev">Dev & Automation</button>
+                </div>
+            </div>
+
+            <div class="row g-4" id="skillsContainer">
+                <!-- Application Support -->
+                <div class="col-md-6 col-lg-4 skill-card-wrapper" data-category="support">
+                    <div class="skill-box p-4 h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-headset"></i></div>
+                        <h5 class="fw-semibold mb-3">Application Support</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="skill-tag">L2/L3 Support</span>
+                            <span class="skill-tag">Production Support</span>
+                            <span class="skill-tag">Incident Management</span>
+                            <span class="skill-tag">Problem & Change Mgmt</span>
+                            <span class="skill-tag">Monitoring</span>
+                            <span class="skill-tag">Root Cause Analysis (RCA)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases & Integration -->
+                <div class="col-md-6 col-lg-4 skill-card-wrapper" data-category="db">
+                    <div class="skill-box p-4 h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-database"></i></div>
+                        <h5 class="fw-semibold mb-3">Databases & Integration</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="skill-tag">SQL Server</span>
+                            <span class="skill-tag">Oracle SQL</span>
+                            <span class="skill-tag">PL/SQL</span>
+                            <span class="skill-tag">ETL Support</span>
+                            <span class="skill-tag">REST APIs</span>
+                            <span class="skill-tag">Postman</span>
+                            <span class="skill-tag">JSON / XML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Banking Applications -->
+                <div class="col-md-6 col-lg-4 skill-card-wrapper" data-category="db">
+                    <div class="skill-box p-4 h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-university"></i></div>
+                        <h5 class="fw-semibold mb-3">Banking Applications</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="skill-tag">KYC</span>
+                            <span class="skill-tag">AML</span>
+                            <span class="skill-tag">CFT</span>
+                            <span class="skill-tag">Watchlist Screening</span>
+                            <span class="skill-tag">Banking Workflows</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Platforms & Operations -->
+                <div class="col-md-6 col-lg-4 skill-card-wrapper" data-category="support">
+                    <div class="skill-box p-4 h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-server"></i></div>
+                        <h5 class="fw-semibold mb-3">Platforms & Operations</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="skill-tag">IIS Administration</span>
+                            <span class="skill-tag">Windows Server</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">SSL Certificates</span>
+                            <span class="skill-tag">License Management</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Release & Delivery -->
+                <div class="col-md-6 col-lg-4 skill-card-wrapper" data-category="support">
+                    <div class="skill-box p-4 h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-rocket"></i></div>
+                        <h5 class="fw-semibold mb-3">Release & Delivery</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="skill-tag">Application Deployment</span>
+                            <span class="skill-tag">UAT Validation</span>
+                            <span class="skill-tag">Release Validation</span>
+                            <span class="skill-tag">Log Analysis</span>
+                            <span class="skill-tag">SOPs & Knowledge Base</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Development & Automation -->
+                <div class="col-md-6 col-lg-4 skill-card-wrapper" data-category="dev">
+                    <div class="skill-box p-4 h-100">
+                        <div class="icon-box mb-3"><i class="fas fa-robot"></i></div>
+                        <h5 class="fw-semibold mb-3">Development & Automation</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Spring Boot</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">AI & Workflow Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience" class="py-5 bg-soft-gray">
+        <div class="container">
+            <h3 class="section-title mb-4">Professional Experience</h3>
+            
+            <div class="timeline">
+                <!-- Job 1 -->
+                <div class="timeline-card p-4 bg-white mb-4">
+                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-3">
+                        <div>
+                            <h5 class="fw-bold text-dark-slate mb-1">Senior Application Support Engineer</h5>
+                            <div class="text-medium-gray fw-semibold"><i class="far fa-building me-2"></i>DATA GEAR</div>
+                        </div>
+                        <span class="date-badge mt-2 mt-md-0">Jun 2024 – Present</span>
+                    </div>
+                    <ul class="experience-list text-secondary mb-0">
+                        <li>Provide L2/L3 production support for enterprise banking applications used by multiple banking clients, supporting KYC, AML, CFT, and Watchlist Screening solutions.</li>
+                        <li>Investigate and resolve production incidents through application log analysis, SQL/PLSQL investigation, data validation, and root cause analysis.</li>
+                        <li>Support ETL processes and manage IIS-hosted applications, SSL certificates, and application licenses.</li>
+                        <li>Execute deployments and fixes, validate releases, reproduce production issues in UAT, and perform functional testing before go-live.</li>
+                        <li>Coordinate with banking clients and development, QA, database, and infrastructure teams; prepare technical documentation, SOPs, and handover sessions.</li>
+                        <li>Develop AI-powered workflow automations to assist with log analysis, incident investigation, and professional email drafting.</li>
+                    </ul>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="timeline-card p-4 bg-white">
+                    <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-3">
+                        <div>
+                            <h5 class="fw-bold text-dark-slate mb-1">Web Development Instructor</h5>
+                            <div class="text-medium-gray fw-semibold"><i class="fas fa-chalkboard-teacher me-2"></i>ROUTE ACADEMY</div>
+                        </div>
+                        <span class="date-badge mt-2 mt-md-0">1 Year</span>
+                    </div>
+                    <ul class="experience-list text-secondary mb-0">
+                        <li>Delivered web development training and mentoring, guiding students in Java, HTML, CSS, JavaScript, SQL, and software engineering.</li>
+                        <li>Reviewed student projects and provided technical guidance and support.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects & Certifications -->
+    <section id="projects" class="py-5 bg-white">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Projects Column -->
+                <div class="col-lg-7">
+                    <h3 class="section-title mb-4">Key Projects</h3>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="project-card p-4 h-100">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <i class="fas fa-video text-medium-gray fs-5"></i>
+                                    <span class="badge bg-light text-secondary border">Full-Stack Web</span>
+                                </div>
+                                <h6 class="fw-bold text-dark-slate">Psychology Platform</h6>
+                                <p class="text-muted small mb-0">Comprehensive online consultation platform featuring real-time video calls and automated appointment scheduling.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="project-card p-4 h-100">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <i class="fas fa-utensils text-medium-gray fs-5"></i>
+                                    <span class="badge bg-light text-secondary border">Web App</span>
+                                </div>
+                                <h6 class="fw-bold text-dark-slate">Recipe Sharing Platform</h6>
+                                <p class="text-muted small mb-0">Interactive community web application for publishing, searching, and managing culinary recipes.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="project-card p-4 h-100">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <i class="fab fa-java text-medium-gray fs-5"></i>
+                                    <span class="badge bg-light text-secondary border">Java / Spring</span>
+                                </div>
+                                <h6 class="fw-bold text-dark-slate">Java Desktop & Web Apps</h6>
+                                <p class="text-muted small mb-0">Suite of enterprise-oriented desktop and web applications built using Java, Spring Boot, and relational databases.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="project-card p-4 h-100">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <i class="fas fa-gamepad text-medium-gray fs-5"></i>
+                                    <span class="badge bg-light text-secondary border">OOP / Java</span>
+                                </div>
+                                <h6 class="fw-bold text-dark-slate">Java Tank Game</h6>
+                                <p class="text-muted small mb-0">2D arcade simulation game engineered in Java demonstrating OOP principles, collision physics, and game loops.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications Column -->
+                <div class="col-lg-5">
+                    <h3 class="section-title mb-4">Certifications</h3>
+                    <div class="cert-list">
+                        <div class="cert-item p-3 mb-3 d-flex align-items-center justify-content-between">
+                            <div>
+                                <div class="fw-semibold text-dark-slate">AWS Cloud Practitioner</div>
+                                <div class="text-muted small">Amazon Web Services</div>
+                            </div>
+                            <span class="badge bg-secondary-subtle text-dark">In Progress</span>
+                        </div>
+
+                        <div class="cert-item p-3 mb-3 d-flex align-items-center justify-content-between">
+                            <div>
+                                <div class="fw-semibold text-dark-slate">Claude 101</div>
+                                <div class="text-muted small">Anthropic AI Workflows</div>
+                            </div>
+                            <span class="badge bg-light text-secondary border">2025</span>
+                        </div>
+
+                        <div class="cert-item p-3 mb-3 d-flex align-items-center justify-content-between">
+                            <div>
+                                <div class="fw-semibold text-dark-slate">SQL (Intermediate)</div>
+                                <div class="text-muted small">HackerRank</div>
+                            </div>
+                            <span class="badge bg-light text-secondary border">2024</span>
+                        </div>
+
+                        <div class="cert-item p-3 d-flex align-items-center justify-content-between">
+                            <div>
+                                <div class="fw-semibold text-dark-slate">WordPress Certifications</div>
+                                <div class="text-muted small">Coursera</div>
+                            </div>
+                            <span class="badge bg-light text-secondary border">Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Training -->
+    <section id="education" class="py-5 bg-soft-gray">
+        <div class="container">
+            <h3 class="section-title mb-4">Education & Training</h3>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="edu-card p-4 bg-white h-100">
+                        <span class="text-muted small fw-semibold">IN PROGRESS</span>
+                        <h5 class="fw-bold text-dark-slate mt-1">Pre-Master's Studies</h5>
+                        <p class="text-secondary small mb-0">Advanced postgraduate coursework in Computer Science & Information Systems.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="edu-card p-4 bg-white h-100">
+                        <span class="text-muted small fw-semibold">2023</span>
+                        <h5 class="fw-bold text-dark-slate mt-1">B.Sc. in Computer Science</h5>
+                        <p class="text-secondary small mb-0">Cairo University</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="edu-card p-4 bg-white h-100">
+                        <span class="text-muted small fw-semibold">DIPLOMA</span>
+                        <h5 class="fw-bold text-dark-slate mt-1">IT Master's Diploma</h5>
+                        <p class="text-secondary small mb-0">Route Academy – Full-Stack Web Development</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="edu-card p-4 bg-white h-100">
+                        <span class="text-muted small fw-semibold">6 MONTHS TRAINING</span>
+                        <h5 class="fw-bold text-dark-slate mt-1">Python Support Trainee</h5>
+                        <p class="text-secondary small mb-0">National Institute of Laser Enhanced Sciences (NILES)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-white border-top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-4">
+                    <h3 class="section-title d-inline-block mb-2">Get In Touch</h3>
+                    <p class="text-muted">Looking for a Senior Application Support Engineer or Automation Specialist? Send a direct message below.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <form id="contactForm" class="p-4 bg-soft-gray rounded-3 border">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label small fw-semibold text-secondary">Your Name</label>
+                                <input type="text" class="form-control bg-white" id="senderName" required placeholder="John Doe">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label small fw-semibold text-secondary">Email Address</label>
+                                <input type="email" class="form-control bg-white" id="senderEmail" required placeholder="john@company.com">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label small fw-semibold text-secondary">Subject</label>
+                                <input type="text" class="form-control bg-white" id="mailSubject" required placeholder="Senior Application Support Opportunity">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label small fw-semibold text-secondary">Message</label>
+                                <textarea class="form-control bg-white" id="mailBody" rows="4" required placeholder="Write your message here..."></textarea>
+                            </div>
+                            <div class="col-12 text-end">
+                                <button type="submit" class="btn btn-dark-gray px-4 py-2">
+                                    <i class="fas fa-paper-plane me-2"></i>Send via Email Client
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-soft-gray border-top text-center text-muted small">
+        <div class="container">
+            <p class="mb-1 fw-semibold text-dark-slate">MOHAMED ABDELZAHER</p>
+            <p class="mb-0">Giza, Egypt &bull; +20 112 162 3973 &bull; mohamedhosny2819@gmail.com</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
